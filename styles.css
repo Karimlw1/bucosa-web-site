@@ -9,6 +9,7 @@ header{
     justify-content: space-between;
     margin: 30px 30px 0 30px;
 }
+
 .fi-sr-menu-burger{
     font-size: 2rem;
     color: #333;
@@ -148,8 +149,12 @@ footer{
     right: 0;
     width: 100%;
 }
+.footer-icons a{
+    text-decoration: none;
+    color: #333;
+}
 .footer-icons i:hover{
-    color: #4552de;
+    color: #e70e0e52;
 }
 .search-input{
     width: 80%;
