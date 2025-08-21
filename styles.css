@@ -7,7 +7,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 30px 0 30px;
+    margin: 30px 30px 0 30px;
 }
 .fi-sr-menu-burger{
     font-size: 2rem;
@@ -17,8 +17,15 @@ header{
     font-size: 1.5rem;
     padding: 10px 10px 5px 10px;
     color: #ffffff;
-    background-color: #333;
+    background-color: blue;
     border-radius: 20%;
+    transition: all 0.3s ease-in-out;
+}
+.fi-sr-user:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    color: blue;
+    background-color: #ffffff;
+
 }
 .welcome-section{
     margin-top: 50px;
@@ -35,8 +42,7 @@ header{
     grid-template-columns:  1fr 1fr 1fr;
     height: 310px;
     margin: 30px 0 30px 30px;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 .news-section div{
     display: inline-block;
@@ -69,7 +75,9 @@ header{
     
 } 
 .fa-heart{
-    color: red;
+    color: #f160537d;
+    font-size: 1.5rem;
+    animation: beat 1s infinite;
 }
 .fa-comment-dots{
     color: #bcbaba;
@@ -101,7 +109,6 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 50px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -118,6 +125,18 @@ footer{
    footer{
         height: 40%;
     }
+}
+.footer-logo-div{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.logo-bucosa{
+    height: 55%;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.2;
 }
 .footer-icons{
     display: flex;
