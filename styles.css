@@ -103,8 +103,9 @@ header{
     background-color: #bcbaba;
     margin: 0 5px;
 }
-.dot1{
-    background-color: #1f54e67b;
+.dot1:hover, .dot2:hover, .dot3:hover{
+    background-color: #1f51e68f;
+    cursor: pointer;
 }
 footer{
     display: flex;

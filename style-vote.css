@@ -1,5 +1,62 @@
+.container-passkey{
+    position: relative;
+    margin-top: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.passkey-div{
+    z-index: 2;
+    position: relative;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 50px 70px 50px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 2.5rem;
+    color: #0078e1;
+    margin-bottom: 20px;
+
+}
+p{
+    color: #cfc2c2;
+    margin-bottom: 30px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px 30px;
+    background-color: #0078e1;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color:#ffffff;
+    color: #0078e1;
+    border: 1px solid #0078e1;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
 .logo-div{
     position: absolute;
+    top: 0;
     right: 0;
     left: 0;
     display: flex;
@@ -8,6 +65,7 @@
     height: 100%;
 }
 .logo-div img{
+    position: absolute;
     width: 50%;
     height: 50%;
     min-width: 600px;
