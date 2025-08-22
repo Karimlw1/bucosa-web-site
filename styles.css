@@ -42,7 +42,7 @@ header{
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
     height: 310px;
-    margin: 30px 0 30px 30px;
+    margin: 30px 0 20px 30px;
     overflow-y: scroll;
 }
 .news-section div{
@@ -125,7 +125,7 @@ footer{
 }
 @media (max-width: 468px) {
    footer{
-        height: 35%;
+        height: 30%;
     }
 }
 .footer-logo-div{
