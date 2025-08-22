@@ -125,6 +125,11 @@ footer{
 }
 @media (max-width: 468px) {
    footer{
+        height: 40%;
+    }
+}
+@media (max-width: 375px) {
+   footer{
         height: 30%;
     }
 }
