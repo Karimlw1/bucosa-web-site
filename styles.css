@@ -125,7 +125,7 @@ footer{
 }
 @media (max-width: 468px) {
    footer{
-        height: 40%;
+        height: 20%;
     }
 }
 .footer-logo-div{
