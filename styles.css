@@ -132,10 +132,9 @@ footer{
     display: flex;
     justify-content: center;
     height: 100%;
-    margin-bottom: 100px;
 }
 .logo-bucosa{
-    height: 55%;
+    height: 50%;
     border-radius: 50%;
     object-fit: cover;
     opacity: 0.2;
@@ -162,7 +161,7 @@ footer{
     height: 40px;
     border-radius: 20px;
     border: none;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
     padding-left: 20px;
     font-size: 1rem;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
