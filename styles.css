@@ -125,7 +125,7 @@ footer{
 }
 @media (max-width: 468px) {
    footer{
-        height: 40%;
+        height: 35%;
     }
 }
 @media (max-width: 375px) {
